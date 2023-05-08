@@ -5,13 +5,18 @@ window.alert("Hello, World!") //Adding an alert box with a string.
 
 window.alert("Hey you, " + A + "!"); //Adding an alert box to include a variable
 
-//FUNCTION
+//FUNCTIONs
 function My_First_Function() {            //Defining a function and naming it.
     var str = "This is the button text!"; //Defining a variable and givig it a string value.
 
     document.getElementById("Button_Text")//Putting the value of the variable ino the HTML elementFromPoint
                                           //with the "Button=Text" id.
 }
+
+function myFunction() { 
+    document.getElementById("demo").innerHTML = "You pressed a key inside the input field";
+}
+
 
 
 
