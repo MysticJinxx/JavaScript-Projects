@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Math Operators</title>
+        <meta charset="utf-8">
+        <script src="JS/main.js"></script>
+    </head>
+
+    <body>
+        <h1>JavaScript Math Operators</h1>
+
+        <br>
+
+        <h3>Addition</h3>
+        <p id="Math" onmouseover="addFunction()">16 + 16</p>
+
+        <br>
+        <h3>Subtraction</h3>
+        <p id="Subtract" onmouseover="subFunction()">16 - 4</p>
+
+        <br>
+        <h3>Multiplication</h3>
+        <p id="Multiply" onmouseover="multiplyFunction()">16 * 4</p>
+
+        <br>
+        <h3>Division</h3>
+        <p id="Divide" onmouseover="divideFunction()">16 / 4</p>
+
+        <br>
+        <h3>Multiple Operations</h3>
+        <p id="Multiple" onmouseover="moreMath()">(5 + 5) * 10 / 2 - 2</p>
+
+        <br>
+        <h3>Modulus Operator</h3>
+        <p id="Modulus" onmouseover="modulusFunction()">26 % 3</p>
+
+        <br>
+        <br>
+        
+        <!--Unary operators (operation that only contains a single operand)-->
+        <h2>Unary Operators</h2>
+        
+        <br>
+        <h3>Negation Operator</h3>
+        <p id="Negation" onmouseover="negationFunction()">Negative of 10</p>
+
+        <br>
+        <h3>Increment Operator</h3>
+        <p id="Increment" onclick="increment()">10 ++</p>
+        <button onclick="increment()" id="Button_Text">
+            Click Me!
+        </button>
+
+        <br>
+        <h3>Decrement Operator</h3>
+        <p id="Decrement" onclick="decrement()">10 --</p>
+        <button onclick="decrement()" id="Button_Text">
+            Click Me!
+        </button>
+
+        <!--Math.random-->
+        <br>
+        <h3>Math.random</h3>
+        <p id="Random" onclick="randomFunction()">Random Number Generator</p>
+        <button onclick="randomFunction()" id="Button_Text">
+            Click Me!
+        </button>
+
+        <!--Math Object-->
+        <br>
+        <h3>Math Object</h3>
+        <p id="mathObject" onclick="objectFunction()">Round 4.5 to the nearest interger:</p>
+        <button onclick="objectFunction()" id="Button_Text">
+            Click Me!
+        </button>
+    </body>
+</html>
