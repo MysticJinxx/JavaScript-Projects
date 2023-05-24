@@ -2,9 +2,9 @@
 Some projects I made using JavaScript.
 
 ## Projects
--[Pizza Menu](https://github.com/MysticJinxx/JavaScript-Projects/tree/main/pizzaProject)
--[Tic-Tac-Toe Game](https://github.com/MysticJinxx/JavaScript-Projects/tree/main/TicTacToe)
--[Calculator](https://github.com/MysticJinxx/JavaScript-Projects/tree/main/Calculator)
+- [Pizza Menu](https://github.com/MysticJinxx/JavaScript-Projects/tree/main/pizzaProject)
+- [Tic-Tac-Toe Game](https://github.com/MysticJinxx/JavaScript-Projects/tree/main/TicTacToe)
+- [Calculator](https://github.com/MysticJinxx/JavaScript-Projects/tree/main/Calculator)
 
 ### Pizza Menu
 
